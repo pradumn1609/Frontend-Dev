@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.outer {
+  width: 500px;
+  height: 400px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  width: 70%;
+  height: 70%;
+  background: #fffdd0; /* cream color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: #333;
+}

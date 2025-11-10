@@ -1,0 +1,56 @@
+/* Basic page setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Fixed header and footer */
+header, footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  z-index: 10;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+/* Sections setup */
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px; /* space for header/footer */
+  box-sizing: border-box;
+}
+
+/* Linear gradient background */
+.linear-gradient {
+  background: linear-gradient(135deg, #3498db, #9b59b6);
+  background-attachment: fixed; /* parallax-like effect */
+}
+
+/* Radial gradient background */
+.radial-gradient {
+  background: radial-gradient(circle, #e67e22, #d35400);
+}
+
+/* Section text container */
+.content {
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
